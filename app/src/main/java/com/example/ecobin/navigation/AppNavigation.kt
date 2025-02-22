@@ -13,7 +13,13 @@ import com.example.ecobin.screens.upload.UploadScreen
 fun AppNavigation(){
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = "home"){
-        composable("home") { HomeScreen(navController) }
+        composable("home") {
+
+
+            HomeScreen(navController)
+
+
+        }
         composable("upload") { UploadScreen(navController) }
         composable("signin") { SignInScreen(navController) }
         composable("signup") { SignUpScreen(navController) }

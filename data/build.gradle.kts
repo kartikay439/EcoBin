@@ -42,9 +42,9 @@ dependencies {
     api("io.insert-koin:koin-androidx-compose:4.0.2")
 
     //Firebase
-    implementation(platform("com.google.firebase:firebase-bom:33.8.0"))
-    implementation("com.google.firebase:firebase-firestore")
-    implementation("com.google.firebase:firebase-auth")
+    api(platform("com.google.firebase:firebase-bom:33.8.0"))
+    api("com.google.firebase:firebase-firestore")
+    api("com.google.firebase:firebase-auth")
 
 
 

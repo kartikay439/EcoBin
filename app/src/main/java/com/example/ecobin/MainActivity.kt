@@ -13,6 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.ecobin.navigation.AppNavigation
 import com.example.ecobin.ui.theme.EcoBInTheme
+import org.koin.android.ext.koin.androidContext
+import org.koin.core.context.startKoin
 
 open class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,6 +24,7 @@ open class MainActivity : ComponentActivity() {
             EcoBInTheme {
                 AppNavigation()
             }
+
         }
     }
 }
