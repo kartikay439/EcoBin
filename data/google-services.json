@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "14653580010",
+    "project_id": "ecobin-9dbe5",
+    "storage_bucket": "ecobin-9dbe5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14653580010:android:005a3aa9fcead48122ed93",
+        "android_client_info": {
+          "package_name": "com.example.ecobin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvDVUY_-e1EqImwhn6edNbzItWLmgQ8bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
