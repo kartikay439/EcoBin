@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="SplashTheme" parent="Theme.Material3.DayNight">
+        <item name="android:windowBackground">@drawable/ecobinlogo</item>
+    </style>
 
     <style name="Theme.EcoBIn" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
